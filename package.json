@@ -1,0 +1,20 @@
+{
+  "name": "apiLambdaMojo",
+  "version": "1.0.0",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.16.0",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11",
+    "serverless-offline": "^4.9.4"
+  },
+  "description": ""
+}
