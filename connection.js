@@ -1,14 +1,15 @@
 const mysql = require('mysql');
 
 const configDB = {
-  //host: 'mojodb.cpse5vpaifmp.us-east-2.rds.amazonaws.com',
-  //user: 'mojouser',
-  //password: 'Marte2000',
+  //host: 'AMAZONRDS',
+  //user: 'AMAZONUSERDB',
+  //password: 'AMAZONPASSDB',
+  //database: 'AMAZONDB',
   host: 'localhost',
   user: 'root',
   password: 'root',
   port: '8889',
-  database: 'mojodb',
+  database: 'DATABASELOCAL',
   debug: true
 };  
 
